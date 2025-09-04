@@ -1,4 +1,5 @@
-﻿using CloneExplorer.Support.UI.Units;
+﻿using CloneExplorer.Forms.UI.Views;
+using CloneExplorer.Support.UI.Units;
 using Jamesnet.Wpf.Controls;
 using System.Windows;
 
@@ -11,7 +12,8 @@ namespace CloneExplorer
         protected override Window CreateShell()
         {
             //return new Window();
-            return new DarkWindow();
+            //return new DarkWindow();
+            return new ExplorerWindow();
         }
 
 

@@ -13,6 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CloneExplorer.Forms\CloneExplorer.Forms.csproj" />
     <ProjectReference Include="..\CloneExplorer.Support\CloneExplorer.Support.csproj" />
   </ItemGroup>
 

@@ -1,0 +1,21 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:based="clr-namespace:CloneExplorer.Support.UI.Units;assembly=CloneExplorer.Support"
+                    xmlns:views="clr-namespace:CloneExplorer.Forms.UI.Views"
+                    xmlns:units="clr-namespace:CloneExplorer.Forms.UI.Units">
+    
+    <Style
+        TargetType="{x:Type views:ExplorerWindow}"
+        BasedOn="{StaticResource {x:Type based:DarkWindow}}">
+        <Setter Property="Content">
+            <Setter.Value>
+                <units:FolderTreeView>
+                    <TreeViewItem>Lucas</TreeViewItem>
+                    <TreeViewItem>Kevin</TreeViewItem>
+                    <TreeViewItem>Sonny</TreeViewItem>
+                </units:FolderTreeView>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    
+</ResourceDictionary>
