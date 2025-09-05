@@ -3,20 +3,23 @@
                     xmlns:based="clr-namespace:CloneExplorer.Support.UI.Units;assembly=CloneExplorer.Support"
                     xmlns:views="clr-namespace:CloneExplorer.Forms.UI.Views"
                     xmlns:units="clr-namespace:CloneExplorer.Forms.UI.Units">
-    
+
     <Style
         TargetType="{x:Type views:ExplorerWindow}"
         BasedOn="{StaticResource {x:Type based:DarkWindow}}">
         <Setter Property="Content">
             <Setter.Value>
-                <units:FolderTreeView>
-                    <units:FolderTreeItem Header="dimohy"/>
-                    <units:FolderTreeItem Header="vincent"/>
-                    <units:FolderTreeItem Header="rkttu"/>
+                <StackPanel>
+                    <TextBlock Text="{Binding TestTitle}" Foreground="#FFFFFF"/>
+                    <units:FolderTreeView>
+                        <units:FolderTreeItem Header="dimohy"/>
+                        <units:FolderTreeItem Header="vincent"/>
+                        <units:FolderTreeItem Header="rkttu"/>
+                    </units:FolderTreeView>
+                </StackPanel>
 
-                </units:FolderTreeView>
-            </Setter.Value>
+            </Setter.Value> 
         </Setter>
     </Style>
-    
+
 </ResourceDictionary>

@@ -11,8 +11,6 @@ namespace CloneExplorer
     {
         protected override Window CreateShell()
         {
-            //return new Window();
-            //return new DarkWindow();
             return new ExplorerWindow();
         }
 

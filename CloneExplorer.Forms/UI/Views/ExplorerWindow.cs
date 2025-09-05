@@ -1,4 +1,5 @@
-﻿using CloneExplorer.Support.UI.Units;
+﻿using CloneExplorer.Forms.Local.ViewModels;
+using CloneExplorer.Support.UI.Units;
 using System.Windows;
 
 namespace CloneExplorer.Forms.UI.Views
@@ -37,6 +38,11 @@ namespace CloneExplorer.Forms.UI.Views
         static ExplorerWindow()
         {
             DefaultStyleKeyProperty.OverrideMetadata(typeof(ExplorerWindow), new FrameworkPropertyMetadata(typeof(ExplorerWindow)));
+        }
+
+        public ExplorerWindow()
+        {
+            DataContext = new ExplorerViewModel();
         }
     }
 }
