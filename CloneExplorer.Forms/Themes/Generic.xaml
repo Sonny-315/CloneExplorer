@@ -3,6 +3,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
 
     <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/CloneExplorer.Forms;component/Themes/Units/FolderTreeItem.xaml"/>
         <ResourceDictionary Source="/CloneExplorer.Forms;component/Themes/Units/FolderTreeView.xaml"/>
         <ResourceDictionary Source="/CloneExplorer.Forms;component/Themes/Views/ExplorerWindow.xaml"/>
     </ResourceDictionary.MergedDictionaries>

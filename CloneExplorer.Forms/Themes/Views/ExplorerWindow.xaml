@@ -10,9 +10,10 @@
         <Setter Property="Content">
             <Setter.Value>
                 <units:FolderTreeView>
-                    <TreeViewItem>Lucas</TreeViewItem>
-                    <TreeViewItem>Kevin</TreeViewItem>
-                    <TreeViewItem>Sonny</TreeViewItem>
+                    <units:FolderTreeItem Header="dimohy"/>
+                    <units:FolderTreeItem Header="vincent"/>
+                    <units:FolderTreeItem Header="rkttu"/>
+
                 </units:FolderTreeView>
             </Setter.Value>
         </Setter>
